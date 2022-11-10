@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #3590F3;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #3590F3;">
     <a class="navbar-brand" href="#">
     <img src="logo.png" width="150" height="50" class="d-inline-block align-top" alt="">
     </a>
@@ -21,20 +21,4 @@
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
 </nav>
-
 </template>
-
-<style>
-.img-fluid{
-background-size: cover;
-width: 100%;
-height: 100%;
-background-position: center;
-}
-</style>
-
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
