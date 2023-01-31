@@ -1,0 +1,4 @@
+<template>
+    <WatchAnime />
+</template>
+    

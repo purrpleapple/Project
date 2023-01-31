@@ -17,9 +17,9 @@
     <b-dropdown-item href="#">Seasonal</b-dropdown-item>
     <b-dropdown-item href="#">Release Calendar</b-dropdown-item>
     </b-dropdown>
-      <a class="nav-item nav-link" href="#"><NuxtLink to="/readmanga">Read Manga</NuxtLink></a>
-      <a class="nav-item nav-link" href="#"><NuxtLink to="/watchanime">Watch Anime</NuxtLink></a>
-      <a class="nav-item nav-link" href="#"><NuxtLink to="/marketplace">Marketplace</NuxtLink></a>
+      <a class="nav-item nav-link" href="#"><NuxtLink to="/read">Read Manga</NuxtLink></a>
+      <a class="nav-item nav-link" href="#"><NuxtLink to="/watch">Watch Anime</NuxtLink></a>
+      <a class="nav-item nav-link" href="#"><NuxtLink to="/market">Marketplace</NuxtLink></a>
       <b-dropdown id="dropdown-2" text="News" variant="link" toggle-class="text-decoration-none" no-caret class="m-2" aria-hidden="true" style="font-weight: bold; background-color: #27213C ; ">
       <b-dropdown-item href="#">All News</b-dropdown-item>
       <b-dropdown-item href="#">Anime Awards</b-dropdown-item>
@@ -64,7 +64,7 @@
                   </div>
 
                   <div class="pt-1 mb-4">
-                    <b-button class="btn btn-dark btn-lg btn-block" href="#" type="button"><NuxtLink to="/homepage">GET IN</NuxtLink></b-button>
+                    <b-button type="submit" variant="primary"><NuxtLink to="/user" style="color: inherit;text-decoration: none;">Login</NuxtLink></b-button>
                    
                   </div>
 

@@ -16,9 +16,9 @@
     <b-dropdown-item href="#">Seasonal</b-dropdown-item>
     <b-dropdown-item href="#">Release Calendar</b-dropdown-item>
     </b-dropdown>
-      <a class="nav-item nav-link" href="#"><NuxtLink to="/readmanga">Read Manga</NuxtLink></a>
-      <a class="nav-item nav-link" href="#"><NuxtLink to="/watchanime">Watch Anime</NuxtLink></a>
-      <a class="nav-item nav-link" href="#"><NuxtLink to="/marketplace">Marketplace</NuxtLink></a>
+      <a class="nav-item nav-link" href="#"><NuxtLink to="/read">Read Manga</NuxtLink></a>
+      <a class="nav-item nav-link" href="#"><NuxtLink to="/watch">Watch Anime</NuxtLink></a>
+      <a class="nav-item nav-link" href="#"><NuxtLink to="/market">Marketplace</NuxtLink></a>
       <b-dropdown id="dropdown-2" text="News" variant="link" toggle-class="text-decoration-none" no-caret class="m-2" aria-hidden="true" style="font-weight: bold; background-color: #27213C ; ">
       <b-dropdown-item href="#">All News</b-dropdown-item>
       <b-dropdown-item href="#">Anime Awards</b-dropdown-item>
@@ -48,6 +48,6 @@ background-position: center;
 <script>
 export default 
 {
-  name: 'marketPlace',
+  name: 'MarketPlace',
 }
 </script>
